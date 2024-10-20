@@ -26,7 +26,6 @@ li {
 .review-section {
     padding: 10px;
     margin: auto;
-    display: flex;
 }
 
 .review-banner {
@@ -69,4 +68,13 @@ li {
 }
 .card-1 {
     margin-left: 55%;
+}
+@media screen and (max-width:640px) {
+    .review-banner {
+        padding: 1%;
+        flex-direction: column;
+    }
+    .container-1 {
+        margin-right: 35%;
+    }
 }
