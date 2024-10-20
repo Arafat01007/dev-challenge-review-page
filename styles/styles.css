@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+body {
+    font-family: "Sora", serif;
+    background-color: darkgray;
+}
+
+.rev-top h1 {
+    color: #18181B;
+    font-size: 2.25rem;
+}
+
+.rev-top p {
+    font-size: 1.25rem;
+    color: #52525A;
+    margin-bottom: 40px;
+}
+
+li {
+    color: #52525A;
+    font-size: 1rem;
+    list-style-image: url(../resource/Done_ring_round_fill.svg);
+    margin-top: 10px;
+}
+
+.review-section {
+    background-color: #FAFAF9;
+    margin: 60px;
+    padding: 100px 200px;
+}
+
+.review-banner {
+    background-color: #FAFAF9;
+    padding: 80px 0 120px 0;
+    display: flex;
+    gap: 200px;
+}
+
+.rev-card {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 20rem;
+    margin-bottom: 40px;
+}
+
+.rev-card .google {
+    width: 40%;
+}
+
+.star {
+    width: 9%;
+}
+
+.rev-card-head {
+    display: flex;
+}
+
+.rev-card h2 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.rev-card p {
+    font-size: 1rem;
+    color: #52525A;
+}
+.card-1 {
+    margin-left: 55%;
+}
