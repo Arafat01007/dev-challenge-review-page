@@ -2,7 +2,7 @@
 
 body {
     font-family: "Sora", serif;
-    background-color: darkgray;
+    background-color: #FAFAF9;
 }
 
 .rev-top h1 {
@@ -24,16 +24,17 @@ li {
 }
 
 .review-section {
-    background-color: #FAFAF9;
-    margin: 60px;
-    padding: 100px 200px;
+    padding: 10px;
+    margin: auto;
+    display: flex;
 }
 
 .review-banner {
-    background-color: #FAFAF9;
-    padding: 80px 0 120px 0;
     display: flex;
-    gap: 200px;
+    padding: 10%;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
 }
 
 .rev-card {
